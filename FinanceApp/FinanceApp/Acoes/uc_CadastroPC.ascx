@@ -18,7 +18,7 @@ Inherits="FinanceApp.uc_CadastroPC" %>
         <br />
         <label>Descrição:</label>
         <br />
-        <asp:TextBox ID="txtDescricaoPlanoDeContas" runat="server" MaxLength="200"></asp:TextBox>
+        <asp:TextBox ID="txtDescricaoPlanoDeContas" runat="server" MaxLength="200">dgfdgdf</asp:TextBox>
         <br />
         <asp:LinkButton ID="lbSalvar" Text="Salvar" runat="server" CssClass="BTN SALVAR" Font-Underline="false"></asp:LinkButton>
         <asp:LinkButton ID="lbCancelar" Text="Cancelar" runat="server" CssClass="BTN CANCELAR" Font-Underline="false"></asp:LinkButton>
