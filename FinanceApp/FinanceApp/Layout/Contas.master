@@ -1,0 +1,25 @@
+﻿<%@ Master Language="VB" 
+MasterPageFile="~/Layout/Basic.Master" 
+AutoEventWireup="false" 
+CodeBehind="Contas.master.vb" 
+Inherits="FinanceApp.Contas1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cphSubmenu" runat="server">
+    <ul>
+        <li>Contas<br />a Pagar</li>
+        <li>Contas<br />a Receber</li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cphBodyContainer" runat="server">
+    <div class="body">
+    <div class="acoes">
+            <asp:ContentPlaceHolder ID="cphAcoes" runat="server">
+                        
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <asp:ContentPlaceHolder ID="cphBody" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

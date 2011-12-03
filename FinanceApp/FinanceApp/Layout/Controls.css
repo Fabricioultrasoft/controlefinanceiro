@@ -1,0 +1,29 @@
+﻿/* File Created: dezembro 3, 2011 */
+
+.BTN
+{
+    border:1px solid Gray;
+    background-color:Aqua;
+    padding:5px;
+    margin:2px;
+    font-size:0.8em;
+    font-weight:bold;
+    font-stretch:expanded;
+    border-radius: 0 0 7px 7px; 
+}
+
+.SALVAR
+{   
+    background-color:AliceBlue;   
+}
+
+.CANCELAR
+{
+    
+}
+
+label
+{
+    font-size: 0.9em;
+    font-weight:bold;
+}

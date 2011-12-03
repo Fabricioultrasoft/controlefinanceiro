@@ -1,0 +1,27 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Layout/Basic.Master" AutoEventWireup="false" CodeBehind="Cadastro.master.vb" Inherits="FinanceApp.Cadastro" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cphSubmenu" runat="server">
+    <ul>
+        <li>Usuários</li>
+        <li><asp:LinkButton ID="lbPC" runat="server" Font-Underline="false" ForeColor="White">Plano<br />de Contas</asp:LinkButton></li>
+        <li>Sub-Plano<br />de Contas</li>
+    </ul>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="cphBodyContainer" runat="server">
+    <div class="body">
+    <div class="acoes">
+            <asp:ContentPlaceHolder ID="cphAcoes" runat="server">
+                        
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <asp:ContentPlaceHolder ID="cphBody" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+
+
+
+

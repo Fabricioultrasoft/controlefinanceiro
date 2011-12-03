@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Basic.master.vb" Inherits="FinanceApp.Basic" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+<link href="Basic.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="menu">
+            <ul>
+                <li><asp:LinkButton ID="lbResumo" runat="server" Font-Underline="false" 
+                        ForeColor="White">Resumo</asp:LinkButton></li>
+                <li><asp:LinkButton ID="lbContas" runat="server" Font-Underline="false" 
+                        ForeColor="White">Contas</asp:LinkButton></li>
+                <li><asp:LinkButton ID="lbCadastros" runat="server" Font-Underline="false" 
+                        ForeColor="White">Cadastros</asp:LinkButton></li>
+            </ul>
+        </div>
+
+        <div class="submenu">
+            <asp:ContentPlaceHolder ID="cphSubmenu" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <asp:ContentPlaceHolder ID="cphBodyContainer" runat="server">            
+        </asp:ContentPlaceHolder>
+        
+    </div>
+    <center style="font-size:0.7em">@footer</center>
+    </form>
+</body>
+</html>
