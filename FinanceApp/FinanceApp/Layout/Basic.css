@@ -3,7 +3,7 @@
     margin: 50px 0px; padding: 0px;
     text-align:center;
     font-family: Calibri, Arial, Times New Roman, Sans-Serif;
-    font-stretch:expanded;
+    background-color:#CCCCC9;
 }
 
 .menu, .submenu, .body
@@ -11,18 +11,18 @@
     width:800px;
     margin: 0 auto;
     text-align: left;
-    border-bottom: solid 1px #eee;
+    border-bottom: solid 1px #003333;
     color:White;
 }
 
 ul
 {
-    margin: 0;
+    margin:0;
     padding:5px;
     list-style:none;
     height:20px;
 }
-.menu > ul > li, .submenu > ul > li
+.menu > ul > li, .submenu > ul > li > a
 {
     float:left;
     margin:1px; 
@@ -37,7 +37,7 @@ ul
     height:24px;
 }
 
-.submenu > ul > li
+.submenu > ul > li > a
 {
     height:34px;
     padding-top: 4px;   
@@ -56,17 +56,24 @@ ul
     padding:5px;
     width:780px;    
     color:Black;
-    border:1px solid #eee;
+    border:1px solid #033;
 }
 
-.acoes > ul > li
+.acoes > a
 {
     font-size:0.7em;
     font-weight:bold;
     float:left;
-    margin:2px;
+    margin-left:7px;
+    margin-top:5px;
     padding:5px;
-    border: 1px solid #eee;
-    background-color:Brown;
+    border: 1px solid #033;
+    background-color:#666699;
+}
+
+.footer
+{
+    margin-top:5px;
+    position:relative;    
 }
 

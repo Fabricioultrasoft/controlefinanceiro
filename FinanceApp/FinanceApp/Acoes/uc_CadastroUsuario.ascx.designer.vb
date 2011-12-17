@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class uc_CadastroSPC
+Partial Public Class uc_CadastroUsuario
 
     '''<summary>
     '''pnlTitulo control.
@@ -41,13 +41,13 @@ Partial Public Class uc_CadastroSPC
     Protected WithEvents lblSubTitulo As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''mvSubPlanoDecontas control.
+    '''mvUsuarios control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents mvSubPlanoDecontas As Global.System.Web.UI.WebControls.MultiView
+    Protected WithEvents mvUsuarios As Global.System.Web.UI.WebControls.MultiView
 
     '''<summary>
     '''viewListagem control.
@@ -59,13 +59,13 @@ Partial Public Class uc_CadastroSPC
     Protected WithEvents viewListagem As Global.System.Web.UI.WebControls.View
 
     '''<summary>
-    '''gvSubPlanoDeContas control.
+    '''gvUsuarios control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvSubPlanoDeContas As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents gvUsuarios As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''viewCadastro control.
@@ -77,22 +77,58 @@ Partial Public Class uc_CadastroSPC
     Protected WithEvents viewCadastro As Global.System.Web.UI.WebControls.View
 
     '''<summary>
-    '''txtDescricaoPlanoDeContas control.
+    '''txtNome control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtDescricaoPlanoDeContas As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtNome As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''ddlPlanosDeContas control.
+    '''txtEmail control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddlPlanosDeContas As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents txtEmail As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtUsuario control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtUsuario As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''rqvUsuario control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents rqvUsuario As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''txtSenha control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtSenha As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''rqvSenha control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents rqvSenha As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''lbSalvar control.
@@ -113,13 +149,13 @@ Partial Public Class uc_CadastroSPC
     Protected WithEvents lbCancelar As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''lblErro control.
+    '''vsUsuario control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblErro As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents vsUsuario As Global.System.Web.UI.WebControls.ValidationSummary
 
     '''<summary>
     '''viewConfirmacao control.

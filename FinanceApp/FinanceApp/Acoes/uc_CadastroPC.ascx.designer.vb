@@ -14,6 +14,33 @@ Option Explicit On
 Partial Public Class uc_CadastroPC
 
     '''<summary>
+    '''pnlTitulo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlTitulo As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''lblTitulo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTitulo As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lblSubTitulo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblSubTitulo As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''mvPlanoDecontas control.
     '''</summary>
     '''<remarks>
@@ -77,6 +104,15 @@ Partial Public Class uc_CadastroPC
     Protected WithEvents lbCancelar As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
+    '''lblErro control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblErro As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''viewConfirmacao control.
     '''</summary>
     '''<remarks>
@@ -84,6 +120,15 @@ Partial Public Class uc_CadastroPC
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents viewConfirmacao As Global.System.Web.UI.WebControls.View
+
+    '''<summary>
+    '''lblConfirmText control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblConfirmText As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''lbConfirmar control.
