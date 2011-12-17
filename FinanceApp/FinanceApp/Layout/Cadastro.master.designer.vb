@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class Cadastro
 
     '''<summary>
+    '''lbUsuarios control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbUsuarios As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''lbPC control.
     '''</summary>
     '''<remarks>
@@ -21,6 +30,15 @@ Partial Public Class Cadastro
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lbPC As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lbSPC control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbSPC As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
     '''cphAcoes control.

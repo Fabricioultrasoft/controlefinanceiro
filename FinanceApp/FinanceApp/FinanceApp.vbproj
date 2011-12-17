@@ -90,8 +90,10 @@
   <ItemGroup>
     <Content Include="Acoes\uc_CadastroPC.ascx" />
     <Content Include="Acoes\uc_CadastroSPC.ascx" />
+    <Content Include="Acoes\uc_CadastroUsuario.ascx" />
     <Content Include="App_Data\FinanceiroDB.sdf" />
     <Content Include="Cadastros\CadastroPC.aspx" />
+    <Content Include="Cadastros\CadastroSPC.aspx" />
     <Content Include="Cadastros\CadastroUsuarios.aspx" />
     <Content Include="Contas\ContasAPagar.aspx" />
     <Content Include="Layout\Controls.css" />
@@ -123,11 +125,25 @@
       <DependentUpon>uc_CadastroSPC.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Acoes\uc_CadastroUsuario.ascx.designer.vb">
+      <DependentUpon>uc_CadastroUsuario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Acoes\uc_CadastroUsuario.ascx.vb">
+      <DependentUpon>uc_CadastroUsuario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Cadastros\CadastroPC.aspx.designer.vb">
       <DependentUpon>CadastroPC.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cadastros\CadastroPC.aspx.vb">
       <DependentUpon>CadastroPC.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cadastros\CadastroSPC.aspx.designer.vb">
+      <DependentUpon>CadastroSPC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros\CadastroSPC.aspx.vb">
+      <DependentUpon>CadastroSPC.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Cadastros\CadastroUsuarios.aspx.designer.vb">

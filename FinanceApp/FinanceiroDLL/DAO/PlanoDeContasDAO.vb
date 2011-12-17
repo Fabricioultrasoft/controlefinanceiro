@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlServerCe
 Imports FinanceiroDLL.Model
 
-Namespace FinanceiroDLL.DAO
+Namespace DAO
     Public Class PlanoDeContasDAO
         Inherits SQLHelper
 
@@ -9,8 +9,10 @@ Namespace FinanceiroDLL.DAO
             Dim InsertQuery As String = "INSERT INTO PlanoDeContas (id, descricao) VALUES (@id, @descricao)"
 
             Dim insertCommand As New SqlCeCommand
-
+            Dim id As Integer = GetMaxID("PlanoDeContas")
             Try
+                pc.Id = id
+
                 Connect()
                 insertCommand.Connection = myConnection
                 insertCommand.CommandType = CommandType.Text
@@ -101,6 +103,42 @@ Namespace FinanceiroDLL.DAO
                 Close()
             End Try
         End Sub
+
+        Public Function ListPlanos() As List(Of PlanoDeContas)
+            Dim selectQuery As String = "SELECT * FROM PlanoDeContas ORDER BY descricao"
+            Dim dt As New DataTable
+            Dim oPC As PlanoDeContas = Nothing
+            Dim listPC As New List(Of PlanoDeContas)
+
+            Dim selectDA As New SqlCeDataAdapter
+            Dim selectCommand As New SqlCeCommand
+
+            Try
+                Connect()
+                selectCommand.Connection = myConnection
+                selectCommand.CommandType = CommandType.Text
+                selectCommand.CommandText = selectQuery
+
+                selectDA.SelectCommand = selectCommand
+                selectDA.Fill(dt)
+
+                If dt.Rows.Count > 0 Then
+                    For Each r As DataRow In dt.Rows
+                        oPC = New PlanoDeContas
+                        oPC.Id = r(0)
+                        oPC.Descricao = r(1)
+                        listPC.Add(oPC)
+                    Next
+                End If
+
+            Catch ex As Exception
+                'Log
+            Finally
+                Close()
+            End Try
+
+            Return listPC
+        End Function
     End Class
 End Namespace
 

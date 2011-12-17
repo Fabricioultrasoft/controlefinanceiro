@@ -23,6 +23,24 @@ Partial Public Class CadastroPC
     Protected WithEvents lbNovoPlano As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
+    '''lbEditPlano control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbEditPlano As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''lbExcluirPlano control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbExcluirPlano As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''cadastroPC control.
     '''</summary>
     '''<remarks>

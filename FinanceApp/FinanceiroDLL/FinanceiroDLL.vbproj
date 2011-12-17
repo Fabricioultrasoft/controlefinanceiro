@@ -47,6 +47,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
@@ -68,6 +69,7 @@
     <Compile Include="DAO\PlanoDeContasDAO.vb" />
     <Compile Include="DAO\SQLHelper.vb" />
     <Compile Include="DAO\SubPlanoDeContasDAO.vb" />
+    <Compile Include="DAO\UsuarioDAO.vb" />
     <Compile Include="Model\PlanoDeContas.vb" />
     <Compile Include="Model\SubPlanoDeContas.vb" />
     <Compile Include="Model\Usuario.vb" />

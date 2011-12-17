@@ -1,29 +1,95 @@
 ﻿/* File Created: dezembro 3, 2011 */
 
+/*--Buttons--*/
 .BTN
 {
-    border:1px solid Gray;
-    background-color:Aqua;
-    padding:5px;
-    margin:2px;
+    padding:2px;
+    margin:1px;
     font-size:0.8em;
-    font-weight:bold;
-    font-stretch:expanded;
-    border-radius: 0 0 7px 7px; 
+    font-weight:bold;    
+    border: 1px solid #033;
+    background-color:#666699;
 }
 
 .SALVAR
 {   
-    background-color:AliceBlue;   
+    padding-left:10px;
+    padding-right:10px;   
 }
 
 .CANCELAR
 {
-    
+    padding-left:4px;
+    padding-right:4px;
 }
 
-label
-{
-    font-size: 0.9em;
+/*--Panels and Titles--*/
+.panelTitulo
+{    
+    width:98%;
+    margin-left: 6px;
+    padding-top:35px;
+}
+
+.Titulo
+{    
+    font-size:1.3em;    
     font-weight:bold;
 }
+
+.SubTitulo
+{
+    font-size:0.7em;
+    margin-left:1px;    
+}
+
+.Container
+{
+    width:96%;
+    padding:7px;
+    margin-left:7px;
+    margin-top:5px;
+    border:1px solid #003333;
+}
+
+.TituloContainer
+{
+    font-size:1.1em;
+    font-weight:bold;       
+}
+
+.Container > a
+{
+    margin-top:5px;
+}
+
+
+/*--GridView--*/
+.grid
+{
+    width:98%;
+    margin:7px;
+    border-width:1px;
+    border-style:solid;    
+}
+
+
+.gridHeader
+{
+    font-size:0.8em;
+    border-color:Black;
+    background-color:#666699;   
+}
+
+.gridColumn
+{
+    padding:5px;
+    font-size:1.1em;
+    border-width:2px;    
+}
+
+.gridCell
+{
+    padding:5px;    
+}
+

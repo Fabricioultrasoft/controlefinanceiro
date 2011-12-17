@@ -6,6 +6,7 @@
 <head id="Head1" runat="server">
     <title></title>
 <link href="Basic.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -30,7 +31,7 @@
         </asp:ContentPlaceHolder>
         
     </div>
-    <center style="font-size:0.7em">@footer</center>
+    <center style="font-size:0.7em" class="footer">@footer</center>
     </form>
 </body>
 </html>

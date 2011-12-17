@@ -11,41 +11,41 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class ContasAPagar
+Partial Public Class CadastroSPC
 
     '''<summary>
-    '''lbNovaContaAPagar control.
+    '''lbNovoSP control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lbNovaContaAPagar As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents lbNovoSP As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''lbEditarContaAPagar control.
+    '''lbEditSP control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lbEditarContaAPagar As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents lbEditSP As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''lbExcluirContaAPagar control.
+    '''lbExcluirSP control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lbExcluirContaAPagar As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents lbExcluirSP As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''lbRecuperarContaAPagar control.
+    '''CadastroSPC control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lbRecuperarContaAPagar As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents CadastroSPC As Global.FinanceApp.uc_CadastroSPC
 End Class

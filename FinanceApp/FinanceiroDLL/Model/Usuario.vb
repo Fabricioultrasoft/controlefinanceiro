@@ -4,7 +4,9 @@
         Private usuario_ As String
         Private senha_ As String
         Private nome_ As String
+        Private email_ As String
         Private deletado_ As Boolean
+        Private isFirstAccess_ As Boolean
 
         Public Property Id() As Integer
             Get
@@ -42,12 +44,30 @@
             End Set
         End Property
 
+        Public Property Email() As String
+            Get
+                Return email_
+            End Get
+            Set(value As String)
+                email_ = value
+            End Set
+        End Property
+
         Public Property Deletado() As Boolean
             Get
                 Return deletado_
             End Get
             Set(value As Boolean)
                 deletado_ = value
+            End Set
+        End Property
+
+        Public Property IsFirtsAccess() As Boolean
+            Get
+                Return isFirstAccess_
+            End Get
+            Set(ByVal value As Boolean)
+                isFirstAccess_ = value
             End Set
         End Property
 
